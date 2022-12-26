@@ -131,3 +131,18 @@ console.log("Greatest Increase in Profits: " + maxMonth + " ($" + greatestIncrea
 console.log("Greatest Decrease in Profits: " + minMonth + " ($" + greatestDecrease + ")");
 
 
+
+
+
+// Can be consoled in the table.
+console.log('');
+console.log('=========== Can be displayed this way ==========')
+const results = {
+  "Total Months: ": finances.length,
+  "Total: ": `$${netTotal}`,
+  "Average Change: ": `$${(totalChange / (finances.length - 1)).toFixed(2)}`,
+  "Greatest Increase in Profits: ": `${maxMonth} $${greatestIncrease}`,
+  "Greatest Decrease in Profits: ": `${minMonth} $${greatestDecrease}`
+}
+
+console.table(results)
