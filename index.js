@@ -1,5 +1,6 @@
 var finances = [
   ["Jan-2010", 867884],
+  ["Feb-2010", 984655],
   ["Mar-2010", 322013],
   ["Apr-2010", -69417],
   ["May-2010", 310503],
@@ -91,7 +92,9 @@ var netTotal = 0;
 var totalChange = 0;
 var changes = [];
 
-for (i = 0; i < finances.length; i++) {
+
+// Loop through all months
+for (let i = 0; i < finances.length; i++) {
   netTotal += finances[i][1];
   if (i != 0) {
     // work out the monthly change 
