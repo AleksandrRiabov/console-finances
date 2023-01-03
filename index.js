@@ -148,4 +148,6 @@ const results = {
   "Greatest Decrease in Profits: ": `${minMonth} $${greatestDecrease}`
 }
 
-console.table(results)
+console.table(results);
+
+
