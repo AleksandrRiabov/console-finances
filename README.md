@@ -27,7 +27,8 @@ The task is to write JavaScript code that analyzes the records to calculate each
   3. Open index.html file from terminal, using '__open index.html__' command.
   4. Open console in the Dev Tool.
 
-
+## Screenshot
+![alt text](/images/ScreenshotConsoleFinances.png)
 
 ## Technologies used
 
